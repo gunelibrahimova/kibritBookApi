@@ -33,12 +33,14 @@ namespace Business.Concrete
         {
             var current = _languageDal.Get(x => x.Id == id);
             current.Name = language.Name;
+            current.Photo = language.Photo;
             _languageDal.Delete(current);
         }
         public void Update(Language language, int id)
         {
             var current = _languageDal.Get(x => x.Id == id);
             current.Name = language.Name;
+            current.Photo = language.Photo;
             _languageDal.Update(current);
         }
     }

@@ -37,6 +37,7 @@ namespace Business.Concrete
         {
             var current = _genreDal.Get(x => x.Id == id);
             current.Name = genre.Name;
+            current.Photo = genre.Photo;
             _genreDal.Delete(current);
         }
 
@@ -44,6 +45,7 @@ namespace Business.Concrete
         {
             var current = _genreDal.Get(x => x.Id == id);
             current.Name = genre.Name;
+            current.Photo = genre.Photo;
             _genreDal.Update(current);
         }
     }
