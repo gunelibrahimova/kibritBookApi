@@ -2655,23 +2655,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\K205\\kibritBookApi\\KibritBook\\KibritBook.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\KibritBookApii\\KibritBook\\KibritBook.csproj",
       "projectName": "KibritBook",
-      "projectPath": "D:\\K205\\kibritBookApi\\KibritBook\\KibritBook.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\K205\\kibritBookApi\\KibritBook\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\KibritBookApii\\KibritBook\\KibritBook.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\KibritBookApii\\KibritBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2686,11 +2686,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\K205\\kibritBookApi\\Business\\Business.csproj": {
-              "projectPath": "D:\\K205\\kibritBookApi\\Business\\Business.csproj"
+            "C:\\Users\\HP\\Desktop\\KibritBookApii\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\KibritBookApii\\Business\\Business.csproj"
             },
-            "D:\\K205\\kibritBookApi\\Core\\Core.csproj": {
-              "projectPath": "D:\\K205\\kibritBookApi\\Core\\Core.csproj"
+            "C:\\Users\\HP\\Desktop\\KibritBookApii\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\KibritBookApii\\Core\\Core.csproj"
             }
           }
         }
@@ -2746,7 +2746,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.114\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
