@@ -15,6 +15,8 @@ namespace Entities.DTOs
         public string? SalePrice { get; set; }
         public bool isStock { get; set; }
         public bool isTranslate { get; set; }
+        public bool isSale { get; set; }
+        public bool isSet { get; set; }
         public string Translator { get; set; }
         public string BookCover { get; set; }
         public string PaperType { get; set; }

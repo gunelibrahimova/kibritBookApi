@@ -78,6 +78,7 @@ namespace DataAccess.Concrete.EntityFramework
                     BookCover = product.BookCover,
                     isStock = product.isStock,
                     isTranslate = product.isTranslate,
+                    isSet = product.isSet,
                     Rating = Math.Round(ratingSum, 1),
                     Comments = commentResult,
                     Quantity = product.Quantity,
@@ -151,6 +152,7 @@ namespace DataAccess.Concrete.EntityFramework
                         BookCover = products[i].BookCover,
                         isStock = products[i].isStock,
                         isTranslate = products[i].isTranslate,
+                        isSet = products[i].isSet,
                         Rating = Math.Round(ratingSum, 1),
                         Quantity = products[i].Quantity,
                     };

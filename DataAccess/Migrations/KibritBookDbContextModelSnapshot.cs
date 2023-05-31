@@ -136,6 +136,12 @@ namespace DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("isSale")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isSet")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("isStock")
                         .HasColumnType("bit");
 

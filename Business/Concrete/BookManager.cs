@@ -31,6 +31,7 @@ namespace Business.Concrete
                 SalePrice = bookDTO.SalePrice,
                 isStock = bookDTO.isStock,
                 isTranslate = bookDTO.isTranslate,
+                isSet = bookDTO.isSet,
                 Translator = bookDTO.Translator,
                 BookCover = bookDTO.BookCover,
                 PaperType = bookDTO.PaperType,
@@ -70,6 +71,8 @@ namespace Business.Concrete
             current.SalePrice = bookDTO.SalePrice;
             current.isStock = bookDTO.isStock;
             current.isTranslate = bookDTO.isTranslate;
+            current.isSale = bookDTO.isSale;
+            current.isSet = bookDTO.isSet;
             current.Translator = bookDTO.Translator;
             current.BookCover = bookDTO.BookCover;
             current.PaperType = bookDTO.PaperType;
@@ -92,6 +95,7 @@ namespace Business.Concrete
             current.SalePrice = bookDTO.SalePrice;
             current.isStock = bookDTO.isStock;
             current.isTranslate = bookDTO.isTranslate;
+            current.isSale = bookDTO.isSale;
             current.Translator = bookDTO.Translator;
             current.BookCover = bookDTO.BookCover;
             current.PaperType = bookDTO.PaperType;

@@ -17,6 +17,8 @@ namespace Entities.Concrete
         public string? SalePrice { get; set; }
         public bool isStock { get; set; }
         public bool isTranslate { get; set; }
+        public bool isSale { get; set; }
+        public bool isSet { get; set; }
         public string Translator { get; set; }
         public string BookCover { get; set; }
         public string PaperType { get; set; }
@@ -25,7 +27,7 @@ namespace Entities.Concrete
         public Author Author { get; set; }
         public int PublisherId { get; set; }
         public Publisher Publisher { get; set; }
-        public int Quantity { get; set; }
+        public int Quantity { get; set; }   
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
         public int LanguageId { get; set; }
